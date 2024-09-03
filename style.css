@@ -1,0 +1,277 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.upper{
+    height: 120px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.753);
+    box-shadow: 0px 1px 2px;
+
+}
+
+.title {
+    text-align: center;
+    padding: 35px;
+    color: rgb(255, 255, 255);
+}
+
+/* main cards */
+
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 25px;
+    justify-content: center;
+}
+.card {
+    width: 160px;
+    height: 240px;
+    box-shadow: 0px 1px 6px #000;
+
+}
+.card:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+.card img {
+    width: 100%;
+    padding: -50px;
+    transition: 0.4s ease;
+}
+.pokemon-container:hover > :not(:hover) {
+    filter: blur(3px)
+}
+.card ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.id {
+    font-size: 10px;
+}
+.name {
+    font-weight: bold;
+
+}
+.type {
+    font-size: small;
+    margin-top: 5px;
+}
+/* types */
+
+
+.normal {
+    background-color: #928888;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    
+}
+.grass {
+    background-color: #94da68;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block;
+}
+.ice {
+    background-color: #63b9de;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block;
+}
+.psychic {
+    background-color: #ec96d9;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block;
+}
+.rock {
+    background-color: #a69161;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block; 
+}
+.steel {
+    background-color: #72706c;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block; 
+}
+.fire {
+    background-color: #e24537;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block; 
+}
+.ground {
+    background-color: #bca038;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block; 
+}
+.water  {
+    background-color: #2f75de;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block; 
+}
+.dark {
+    background-color: #202021;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block; 
+}
+.bug {
+    background-color: #9bb839;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block;
+}
+.flying {
+    background-color: #7482ca;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block;
+}
+.fairy {
+    background-color: #e176d8;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block;
+}
+.electric {
+    background-color: #d7c600;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    padding: -50px;
+    width: 50px;
+    display:inline-block;
+}
+
+/* names */
+.name1 {
+    color: #3983B4;
+    font-weight: bold;
+}
+.name2 {
+    color: #CDBD20;
+    font-weight: bold;
+}
+.name3 {
+    color: #85B4CC;
+    font-weight: bold;
+}
+.name4 {
+    color: #207383;
+    font-weight: bold;
+}
+.name5 {
+    color: #C53920;
+    font-weight: bold;
+}
+.name6 {
+    color: #373337;
+    font-weight: bold;
+}
+.name7 {
+    color: #4A94D5;
+    font-weight: bold;
+}
+.name8 {
+    color: #CD9429;
+    font-weight: bold;
+}
+.name9 {
+    color: #31AC41;
+    font-weight: bold;
+}
+.name10 {
+    color: #EE8329;
+    font-weight: bold;
+}
+.name11{
+    color: #EE9C00;
+    font-weight: bold;
+}
+.name12{
+    color: #CD3939;
+    font-weight: bold;
+}
+.name13{
+    color: #A4624A;
+    font-weight: bold;
+}
+.name14{
+    color: #C5A46A;
+    font-weight: bold;
+}
+.name15{
+    color: #E67383;
+    font-weight: bold;
+}
+.name16{
+    color: #397BA4;
+    font-weight: bold;
+}
+.name17{
+    color: #495939;
+    font-weight: bold;
+}
+.name18{
+    color: #945A41;
+    font-weight: bold;
+}
+.name19 {
+    color: #5A9CEE;
+    font-weight: bold;
+}
+.name20 {
+    color: #F6BD20;
+    font-weight: bold;
+}
+.name21 {
+    color: #EEDE10;
+    font-weight: bold;
+}
+.name22 {
+    color: #315A7B;
+    font-weight: bold;
+}
+.name23 {
+    color: #EE524A;
+    font-weight: bold;
+}
+.name24 {
+    color: #5A9CA4;
+    font-weight: bold;
+}
+.name25 {
+    color: #3194EE;
+    font-weight: bold;
+}
